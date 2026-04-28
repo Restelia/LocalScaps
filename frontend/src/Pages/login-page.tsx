@@ -75,7 +75,7 @@ export function LoginPage() {
   return (
     <main className="mx-auto flex w-full max-w-md flex-col gap-6 px-6 py-16">
       <div className="space-y-1 text-center">
-        <h1 className="text-2xl font-semibold tracking-tight">Welcome to FoodShare</h1>
+        <h1 className="text-2xl font-semibold tracking-tight">Welcome to Local Scraps</h1>
         <p className="text-sm text-muted-foreground">
           Sign in or create an account to start sharing food.
         </p>
