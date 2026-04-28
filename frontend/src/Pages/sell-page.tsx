@@ -85,7 +85,7 @@ export function SellPage() {
                 <Label htmlFor="food-title">Food title</Label>
                 <Input
                   id="food-title"
-                  placeholder="Ex: Fresh banana bread"
+                  placeholder="Ex: Leftover Bananas"
                   value={title}
                   onChange={(event) => setTitle(event.target.value)}
                   aria-invalid={Boolean(errors.title)}

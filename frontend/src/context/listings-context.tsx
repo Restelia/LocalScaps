@@ -25,10 +25,10 @@ export type FoodListing = {
 const SEED_LISTINGS: FoodListing[] = [
   {
     id: "1",
-    title: "Fresh Sourdough Loaf",
+    title: "Surplus Kale Bunch",
     image:
-      "https://images.unsplash.com/photo-1509440159596-0249088772ff?auto=format&fit=crop&w=1200&q=80",
-    description: "Baked this morning. Soft inside, crusty outside.",
+      "https://images.unsplash.com/photo-1524179091875-bf99a9a6af57?auto=format&fit=crop&w=1200&q=80",
+    description: "Extra kale from the garden — great for chickens, composting, or juicing.",
     location: "Downtown",
     expirationDate: "Apr 17, 2026",
     listedAt: "Apr 14, 2026",
@@ -37,10 +37,10 @@ const SEED_LISTINGS: FoodListing[] = [
   },
   {
     id: "2",
-    title: "Organic Veggie Mix",
+    title: "Leftover Carrots",
     image:
-      "https://images.unsplash.com/photo-1542838132-92c53300491e?auto=format&fit=crop&w=1200&q=80",
-    description: "Carrots, kale, and peppers from local farm pickup.",
+      "https://images.unsplash.com/photo-1598170845058-32b9d6a5da37?auto=format&fit=crop&w=1200&q=80",
+    description: "Whole carrots, slightly soft — perfect for livestock feed or compost.",
     location: "West End",
     expirationDate: "Apr 16, 2026",
     listedAt: "Apr 12, 2026",
@@ -49,10 +49,10 @@ const SEED_LISTINGS: FoodListing[] = [
   },
   {
     id: "3",
-    title: "Homemade Pasta Meal",
+    title: "Mixed Cabbage Heads",
     image:
-      "https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=1200&q=80",
-    description: "Ready-to-heat tomato basil pasta, serves two.",
+      "https://images.unsplash.com/photo-1594282486552-05b4d80fbb9f?auto=format&fit=crop&w=1200&q=80",
+    description: "Green and purple cabbage — great for goats, pigs, or fermenting.",
     location: "East Side",
     expirationDate: "Apr 15, 2026",
     listedAt: "Apr 15, 2026",
@@ -61,10 +61,10 @@ const SEED_LISTINGS: FoodListing[] = [
   },
   {
     id: "4",
-    title: "Chicken Burrito Bowl",
+    title: "Extra Zucchini",
     image:
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=1200&q=80",
-    description: "Balanced bowl with rice, beans, chicken, and salsa.",
+      "https://images.unsplash.com/photo-1563565375-f3fdfdbefa83?auto=format&fit=crop&w=1200&q=80",
+    description: "Overgrown zucchini from the garden — livestock love them.",
     location: "North Market",
     expirationDate: "Apr 16, 2026",
     listedAt: "Apr 13, 2026",
@@ -73,10 +73,10 @@ const SEED_LISTINGS: FoodListing[] = [
   },
   {
     id: "5",
-    title: "Berry Yogurt Parfait",
+    title: "Beet Surplus",
     image:
-      "https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=1200&q=80",
-    description: "Greek yogurt with berries and granola topping.",
+      "https://images.unsplash.com/photo-1593105544559-ecb03bf76f82?auto=format&fit=crop&w=1200&q=80",
+    description: "Fresh beets with greens attached — good for kombucha, animals, or soil.",
     location: "University District",
     expirationDate: "Apr 15, 2026",
     listedAt: "Apr 11, 2026",
@@ -85,10 +85,10 @@ const SEED_LISTINGS: FoodListing[] = [
   },
   {
     id: "6",
-    title: "Vegetable Fried Rice",
+    title: "Tomato Overstock",
     image:
-      "https://images.unsplash.com/photo-1512058564366-18510be2db19?auto=format&fit=crop&w=1200&q=80",
-    description: "Quick meal prep tray with mixed vegetables and rice.",
+      "https://images.unsplash.com/photo-1546094096-0df4bcaaa337?auto=format&fit=crop&w=1200&q=80",
+    description: "Ripe tomatoes in bulk — ideal for composting or feeding backyard animals.",
     location: "South Loop",
     expirationDate: "Apr 17, 2026",
     listedAt: "Apr 10, 2026",
