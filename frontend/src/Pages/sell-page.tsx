@@ -170,11 +170,9 @@ export function SellPage() {
           </div>
           <div className="flex flex-col gap-0.5 p-4">
             <p className="truncate text-base font-semibold">{previewTitle}</p>
+            <p className="mt-1 text-sm text-muted-foreground line-clamp-2">{previewDescription}</p>
             <p className="mt-1 text-sm text-muted-foreground">
-              {previewLocation}
-              {expirationDate
-                ? ` · ${new Date(expirationDate + "T12:00:00").toLocaleDateString()}`
-                : " · Set expiration date"}
+              {previewLocation} · {previewExpiration}
             </p>
           </div>
         </Card>

@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 import { Badge } from "@/components/ui/badge"
 import type { FoodListing } from "@/context/listings-context"
 
-function getListingStatus(expirationDate: string, listedAt: string) {
+function getListingStatus(listedAt: string) {
   const now = new Date()
   const listed = new Date(listedAt)
   const oneDayMs = 24 * 60 * 60 * 1000
@@ -17,7 +17,7 @@ type ListingCardProps = {
 }
 
 export function ListingCard({ listing }: ListingCardProps) {
-  const { isNew } = getListingStatus(listing.expirationDate, listing.listedAt)
+  const { isNew } = getListingStatus(listing.listedAt)
 
   return (
     <Link
